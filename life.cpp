@@ -4,8 +4,11 @@ using namespace std;
 
 main(){
     double xp;
-
-    xp = 1;
+    double lowEffortAction;
+    xp = 1.0;
+    lowEffortAction = 1.0;
+    cout << "XP = " << xp << endl;
+    xp + lowEffortAction;
     cout << "XP = " << xp << endl;
 
 
