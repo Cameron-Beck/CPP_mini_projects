@@ -5,8 +5,9 @@ using namespace std;
 main(){
     double xp;
 
-    xp = 0;
-    cout << "xp";
+    xp = 1;
+    cout << "XP = " << xp << endl;
+
 
     return 0;
 
