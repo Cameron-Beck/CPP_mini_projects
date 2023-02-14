@@ -8,9 +8,9 @@ main(){
     xp = 1.0;
     lowEffortAction = 1.0;
     cout << "XP = " << xp << endl;
-    xp + lowEffortAction;
+    xp += lowEffortAction;
     cout << "space" << endl;
-    cout << "XP = " << xp + lowEffortAction << endl;
+    cout << "XP = " << xp<< endl;
 
 
     return 0;
