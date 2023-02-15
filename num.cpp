@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 
 using namespace std;
 
@@ -8,7 +9,9 @@ int main(){
     double dnum = 5.5;
 
     wnum++;
-    cout << wnum;
+    cout << wnum << endl; 
+
+    cout << pow(2,5);
 
 
     return 0;
