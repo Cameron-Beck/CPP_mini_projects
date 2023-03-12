@@ -3,7 +3,15 @@
 
 int main(){
 
-    std::cout << pow(10,2);
+    double base, exponent, result;
+    
+
+    std::cout << "what is the base: " << std::endl;
+    std::cin >> base;
+    std::cout << "what is the exponent" << std::endl;
+    std::cin >> exponent;
+    result = pow(base, exponent);
+    std::cout << result;
 
     return 0;
 }
