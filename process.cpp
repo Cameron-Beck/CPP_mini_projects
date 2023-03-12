@@ -11,7 +11,7 @@ int main(){
     std::cout << "what is the exponent" << std::endl;
     std::cin >> exponent;
     result = pow(base, exponent);
-    std::cout << result;
+    std::cout << result << std::endl;
 
     return 0;
 }
