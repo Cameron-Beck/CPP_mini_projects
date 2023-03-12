@@ -5,14 +5,13 @@ double power(double, double);
 
 int main(){
 
-    double base, exponent, result;
+    double base, exponent;
     
     std::cout << "what is the base" << std::endl;
     std::cin >> base;
     std::cout << "what is the exponent" << std::endl;
     std::cin >> exponent;
     double MyPower = power(base, exponent);
-    //result = pow(base, exponent);
     std::cout << "result:" << std::endl << MyPower;
     
 
